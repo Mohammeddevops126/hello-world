@@ -4,7 +4,6 @@ COPY . /app
 
 WORKDIR /app
 
-RUN ["dotnet", "restore"]
 
 RUN ["dotnet", "build"]
 
